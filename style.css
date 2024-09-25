@@ -6,27 +6,22 @@
     box-sizing: border-box;
 }
 
-html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-}
-
 body {
     margin: 0;
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px "Tahoma", Arial;
     color: #222;
+    background-color: azure;
 }
 
 a {
     color: #757575;
-    background-color: transparent;
     text-decoration: none;
 }
 
-a:focus, details summary:focus {
+a:focus{
     outline: none;
-    border-color: #80bdff;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    border-color: #34d100;
+    box-shadow: 0 0 0 2px rgb(51, 203, 0);
 }
 
 a:hover {
@@ -34,29 +29,21 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
-    border-style: none;
-}
-
-details summary::-webkit-details-marker {
-    display: none;
-}
-
 ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    min-width: 320px;
+    margin: 0;
+    width: 100%;
+    background-color: #34d1;
+    border: 1px black solid;
 }
 
 .header-nav {
     margin-left: auto;
-    padding: 10px;
 }
 
 .nav-list {
@@ -66,9 +53,9 @@ ul {
 }
 
 .nav-list-item {
-    margin-left: 20px;
+    margin: 10px;
     position: relative;
-    margin-top: 5px;
+
 }
 
 nav .nav-icon {
@@ -91,7 +78,7 @@ nav .nav-icon img {
     width: 35px;
     height: 35px;
     background-size: contain;
-    background-image: url("images/popup-button.png");
+    background-image: url("icons/popup-button.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -107,7 +94,8 @@ nav .nav-icon img {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    max-height: 450px;
+    overflow-y: auto;
 }
 
 .popup-checkbox:checked ~ .popup-content {
@@ -118,11 +106,14 @@ nav .nav-icon img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
+
 .popup-list-item{
     width: calc(100% / 3);
+    padding: 1px;
 }
+
 .popup-list-item a{
     position: relative;
     display: flex;
@@ -134,28 +125,24 @@ nav .nav-icon img {
     color: #757575;
     border-radius: 3px;
 }
+
 .popup-list-item a:hover {
     text-decoration: none;
-    background: #f1f1f1;
+    background-color: whitesmoke;
 }
+
 .more{
-    display: grid;
     width: 100%;
     height: 100%;
     padding: 5px;
     text-align: center;
     cursor: pointer;
-    background-color: whitesmoke;
-    transition: all 150ms ease-in;
 }
-.more{
-    display: grid;
-    width: 100%;
-    height: 100%;
+
+.more:hover{
+    background-color: #f8f8f8;
 }
-.more:checked{
-    background-color: white;
-}
+
 .more-button{
     display: none;
     align-items: center;
@@ -164,11 +151,28 @@ nav .nav-icon img {
 .more.label{
     width: 100%;
     align-items: center;
+    list-style: square;
 }
+
 .more-content{
     display: none;
     width: 100%;
 }
+
 .more-button:checked ~ .more-content {
     display: block;
+}
+
+.more-label:hover{
+    text-decoration: underline;
+}
+
+.popup-icon-square{
+    width: 35px;
+    height: 35px;
+}
+
+.popup-icon-rectangle{
+    width: 35px;
+    height: 20px;
 }
