@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font: 16px/26px "Tahoma", Arial;
-    background-color: #efefff;
+    background-color: #f8ffec;
 }
 
 a {
@@ -34,7 +34,7 @@ ul {
 }
 
 .header {
-  background-color: #b6b6f4;;
+  background-color: #d1ffd1;
   display: block;
   border: 2px black solid;
   border-radius: 10px;
@@ -44,20 +44,19 @@ ul {
   width: 100%;
 }
 
-.header-nav {
+.header-div {
   float: right;
 }
-.header-nav > ul:last-child {
+.header-div > ul:last-child {
   margin-right: 15px;
 }
 
-.nav-list {
+.div-list {
   display: inline-block;
-    align-items: center;
 }
 
-.nav-list-item {
-  float: left;
+.div-list-item {
+    float: left;
     margin: 10px;
     position: relative;
     height: 50px;
@@ -66,20 +65,21 @@ ul {
     padding: 2px;
 }
 
-nav .nav-icon {
+.div-list-item .div-icon {
     display: block;
     width: 35px;
     height: 35px;
 }
 
-nav .nav-icon img {
-    width: 100%;
-    height: 100%;
+.div-icon img {
+    width: 35px;
+    height: 35px;
 }
 
 .popup-checkbox {
     display: none;
 }
+
 
 .popup-checkbox:checked + .checkbox-label {
   outline: none;
