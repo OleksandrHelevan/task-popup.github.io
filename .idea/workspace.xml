@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff8a841-6070-40ef-8a4c-450912e5bb56" name="Changes" comment="Final">
+    <list default="true" id="5ff8a841-6070-40ef-8a4c-450912e5bb56" name="Changes" comment="Add popup (but need some corrections)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,6 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2mTjGuLZcRWifX3vCZpcRVljnTO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,15 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727296543093</updated>
     </task>
-    <task id="LOCAL-00005" summary="Final">
-      <option name="closed" value="true" />
-      <created>1727614272135</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727614272136</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +131,6 @@
     <MESSAGE value="Add header and checkbox without &quot;More&quot; button" />
     <MESSAGE value="Add button &quot;More&quot;" />
     <MESSAGE value="Add popup (but need some corrections)" />
-    <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add popup (but need some corrections)" />
   </component>
 </project>
