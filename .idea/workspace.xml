@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff8a841-6070-40ef-8a4c-450912e5bb56" name="Changes" comment="Add .editorconfig">
+    <list default="true" id="5ff8a841-6070-40ef-8a4c-450912e5bb56" name="Changes" comment="Add popup (but need some corrections)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +86,7 @@
       <workItem from="1727296675472" duration="20000" />
       <workItem from="1727349256814" duration="365000" />
       <workItem from="1727355409941" duration="387000" />
-      <workItem from="1727442350774" duration="903000" />
-      <workItem from="1727609120169" duration="4803000" />
+      <workItem from="1727442350774" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="Add html file">
       <option name="closed" value="true" />
@@ -122,15 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727296543093</updated>
     </task>
-    <task id="LOCAL-00005" summary="Add .editorconfig">
-      <option name="closed" value="true" />
-      <created>1727442655254</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727442655254</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +131,6 @@
     <MESSAGE value="Add header and checkbox without &quot;More&quot; button" />
     <MESSAGE value="Add button &quot;More&quot;" />
     <MESSAGE value="Add popup (but need some corrections)" />
-    <MESSAGE value="Add .editorconfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .editorconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add popup (but need some corrections)" />
   </component>
 </project>
