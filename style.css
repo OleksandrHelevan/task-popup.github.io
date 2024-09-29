@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: #757575;
 }
 
 *:before, *:after {
@@ -9,8 +10,7 @@
 body {
     margin: 0;
     font: 16px/26px "Tahoma", Arial;
-    color: #222;
-    background-color: azure;
+    background-color: #efefff;
 }
 
 a {
@@ -34,28 +34,36 @@ ul {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    width: 100%;
-    background-color: #34d1;
-    border: 1px black solid;
+  background-color: #b6b6f4;;
+  display: block;
+  border: 2px black solid;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px midnightblue;
+  margin: 5px 0;
+  position: absolute;
+  width: 100%;
 }
 
 .header-nav {
-    margin-left: auto;
+  float: right;
+}
+.header-nav > ul:last-child {
+  margin-right: 15px;
 }
 
 .nav-list {
-    display: flex;
+  display: inline-block;
     align-items: center;
-    color: #757575;
 }
 
 .nav-list-item {
+  float: left;
     margin: 10px;
     position: relative;
-
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 2px;
 }
 
 nav .nav-icon {
@@ -71,6 +79,11 @@ nav .nav-icon img {
 
 .popup-checkbox {
     display: none;
+}
+
+.popup-checkbox:checked + .checkbox-label {
+  outline: none;
+  border: 2px solid #34d100;
 }
 
 .checkbox-label {
@@ -93,7 +106,7 @@ nav .nav-icon img {
     width: 300px;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     max-height: 450px;
     overflow-y: auto;
 }
@@ -101,17 +114,24 @@ nav .nav-icon img {
 .popup-checkbox:checked ~ .popup-content {
     display: block;
 }
+.more-button:checked + .more-label {
+  display: none;
+}
 
 .popup-list{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
 }
 
 .popup-list-item{
-    width: calc(100% / 3);
-    padding: 1px;
+  width: calc(100%/3 - 5px);
+  display: inline-block;
+  height: 80px;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  margin-bottom: 5px;
+
 }
 
 .popup-list-item a{
@@ -134,7 +154,6 @@ nav .nav-icon img {
 .more{
     width: 100%;
     height: 100%;
-    padding: 5px;
     text-align: center;
     cursor: pointer;
 }
@@ -143,15 +162,19 @@ nav .nav-icon img {
     background-color: #f8f8f8;
 }
 
+
 .more-button{
     display: none;
     align-items: center;
 }
 
-.more.label{
-    width: 100%;
-    align-items: center;
-    list-style: square;
+.more-label{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+  background-color: #f8f8f8;
 }
 
 .more-content{
@@ -161,6 +184,7 @@ nav .nav-icon img {
 
 .more-button:checked ~ .more-content {
     display: block;
+  background-color: white;
 }
 
 .more-label:hover{
@@ -176,3 +200,4 @@ nav .nav-icon img {
     width: 35px;
     height: 20px;
 }
+
